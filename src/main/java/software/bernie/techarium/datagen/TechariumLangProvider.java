@@ -34,11 +34,13 @@ public class TechariumLangProvider extends TechariumLangProviderBase {
         addItem(ItemRegistry.COPPER_INGOT, "Copper Ingot");
         addItem(ItemRegistry.LEAD_INGOT, "Lead Ingot");
         addItem(ItemRegistry.NICKEL_INGOT, "Nickel Ingot");
+        addItem(ItemRegistry.ZINC_INGOT, "Zinc Ingot");
 
         addItem(ItemRegistry.ALUMINIUM_NUGGET, "Aluminium Nugget");
         addItem(ItemRegistry.COPPER_NUGGET, "Copper Nugget");
         addItem(ItemRegistry.LEAD_NUGGET, "Lead Nugget");
         addItem(ItemRegistry.NICKEL_NUGGET, "Nickel Nugget");
+        addItem(ItemRegistry.ZINC_NUGGET, "Zinc Nugget");
     }
 
     protected void addBlocks() {
@@ -47,17 +49,20 @@ public class TechariumLangProvider extends TechariumLangProviderBase {
         addBlock(BlockRegistry.ARBORETUM, "Arboretum");
         addBlock(BlockRegistry.ARBORETUM_TOP, "Arboretum");
 
+        addBlock(BlockRegistry.VOLTAIC_PILE, "Voltaic Pile");
         addBlock(BlockRegistry.EXCHANGE_STATION, "Exchange Station");
 
         addBlock(BlockRegistry.ALUMINIUM_ORE, "Aluminium Ore");
         addBlock(BlockRegistry.COPPER_ORE, "Copper Ore");
         addBlock(BlockRegistry.LEAD_ORE, "Lead Ore");
         addBlock(BlockRegistry.NICKEL_ORE, "Nickel Ore");
+        addBlock(BlockRegistry.ZINC_ORE, "Zinc Ore");
 
         addBlock(BlockRegistry.NICKEL_BLOCK, "Nickel Block");
         addBlock(BlockRegistry.ALUMINIUM_BLOCK, "Aluminum Block");
         addBlock(BlockRegistry.COPPER_BLOCK, "Copper Block");
         addBlock(BlockRegistry.LEAD_BLOCK, "Lead Block");
+        addBlock(BlockRegistry.ZINC_BLOCK, "Zinc Block");
     }
 
     private void addTranslationComponents() {
@@ -67,6 +72,7 @@ public class TechariumLangProvider extends TechariumLangProviderBase {
         addTranslation(LangRegistry.botariumDescription, "The Botarium allows you to grow crops in exchange for energy and a suitable fluid");
         addTranslation(LangRegistry.arboretumDescription, "The Arboretum allows you to grow saplings in exchange for energy and water");
         addTranslation(LangRegistry.exchangeDescription, "The Exchange Station allows you to unlock new machines with gold");
+        addTranslation(LangRegistry.voltaicPileDescription, "The Voltaic Pile is a single-use, portable medium capacity energy storage with low RF/t output.");
         addTranslation(LangRegistry.guiPipeInput, "Input");
         addTranslation(LangRegistry.guiPipeOutput, "Output");
         addTranslation(LangRegistry.guiPipeRoundRobin, "Round-Robin");
